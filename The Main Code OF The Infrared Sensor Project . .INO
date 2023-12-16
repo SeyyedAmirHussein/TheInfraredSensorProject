@@ -17,8 +17,8 @@ void setup () {
 
 Serial.begin (115200);                                                                                          // Init Serial At 115200 Baud Rate . OR . Introducing The Series .
 Serial.println (" * * * * The Serial Is Working ! * * * * " );                                                 // Test To Check If * * * * The Serial Is Working ! * * * * OR NOT . OR . Show The Desired Message .
-pinMode (TheInfraredSensor , INPUT);                                                                          // The Infrared Sensor Pin INPUT . OR . Introducing The INPUT Pin .
-pinMode (TheLED , OUTPUT);                                                                                   // The LED Pin OUTPUT . OR . Introducing The OUTPUT Pin .
+pinMode (TheInfraredSensor , INPUT);                                                                          // The Infrared Sensor Pin Is INPUT . OR . Introducing The INPUT Pin .
+pinMode (TheLED , OUTPUT);                                                                                   // The LED Pin Is OUTPUT . OR . Introducing The OUTPUT Pin .
  
 }
 
